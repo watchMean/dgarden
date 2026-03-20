@@ -3,7 +3,7 @@
 ---
 
 
-# 莱布尼茨级数(求π)/Leibniz for π·信息弦重构
+# 莱布尼茨级数/Leibniz for π·信息弦重构
 
 $$\boxed{
 \Pi_{\text{Universe}} = \lim_{t\to\infty} \mathcal{R}^t(\mathbb{I}_\infty) = \underbrace{\sum_{t=0}^\infty \frac{e^{i t\pi}}{2t+1}}_{\text{认知递归支付相位代价}} = \frac{\pi}{4} = \frac{1}{8} \oint_{\text{单闭弦}} d\phi
