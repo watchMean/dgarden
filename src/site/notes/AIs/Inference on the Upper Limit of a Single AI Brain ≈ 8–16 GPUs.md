@@ -53,6 +53,7 @@ $$B_{total} = N(N-1) \times B_{link}$$
 | 16 | 120 | ~200-500 ns |
 | 64 | 2016 | ~1-10 μs |
 | 256 | 32640 | ~10-100 μs |
+
 **Key Point:**
 When $N > 16$, latency breaks through $1 \mu\text{s}$, approaching the budget upper limit of $T_{cycle}$.
 
@@ -72,6 +73,7 @@ This is exactly $1/3$ to $1/2$ of a standard high-density rack ($30\text{--}50 \
 | **Dynamics** | $t \le \frac{\ln 1.1}{\lambda}$ | $\le 0.3 \text{ms}$ | Synchronization Cycle Upper Limit |
 | **Topology Latency** | $Latency \propto N^2$ | $>1\mu\text{s}$ (when $N>16$) | Node Count Upper Limit |
 | **Power** | $P = N \cdot P_{GPU}$ | $\sim 15 \text{kW}$ | Within Rack Capacity |
+
 **Final Answer:**
 > When $N \approx 8\text{--}16$, the **latency ($\sim 100\text{--}500 \text{ns}$) fits exactly within the time window allowed by dynamics ($\sim 60 \mu\text{s}$)**, and power consumption is within the rack load capacity.
 >
